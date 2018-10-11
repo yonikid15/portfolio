@@ -6,7 +6,7 @@
 - Babel
 - WebPack
 - Eslint
-- Jest
+- Jest + Enzyme
 - Storybook
-- SSR (Express + GraphQL )
+- SSR ( Express + GraphQL )
 
