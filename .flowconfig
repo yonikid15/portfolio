@@ -1,0 +1,10 @@
+[include]
+./src/components
+
+[ignore]
+.*/build/.*
+.*/node_modules/.*
+.*/flow-typed/.*
+
+[libs]
+.*/flow-typed//*
