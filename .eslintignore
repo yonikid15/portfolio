@@ -1,5 +1,6 @@
 # flow-typed
 /flow-typed
+/node_modules
 
 # ignore story files
-*.stories.jsx
+# *.stories.jsx

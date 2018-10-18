@@ -3,11 +3,13 @@
 ## Setup
 
 - React
+- Flow
 - Babel
 - WebPack
+- PostCSS
+- CSS Modules
 - Eslint
 - Prettier
-- Flow
 - Jest + Enzyme
-- Storybook
+- Storybook (Design System Manager)
 - SSR ( Express + GraphQL )

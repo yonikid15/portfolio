@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { storiesOf, addDecorator } from '@storybook/react';
+import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs/react';
 
 import wInfo from '../utils/utils';
@@ -24,4 +24,6 @@ storiesOf('Button', module)
       </span>
     </Button>
   ))
-  .addWithJSX('with my name', () => <Button bg={text('bg', 'green')}>Yoni</Button>);
+  .addWithJSX('with my name', () => (
+    <Button bg={text('bg', 'green')}>Yoni</Button>
+  ));
